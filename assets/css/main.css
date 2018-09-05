@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+	text-decoration: none;
+
+}
+
+*{
+  box-sizing: border-box;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 4.06vw;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 3.10vw;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 2.33vw;
+	font-weight: 600;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	padding: 180px 100px;
+	background-color: #f6f3f3;
+}
+
+.box1 h1{
+		padding: 10px;
+}
+
+.box2 h3{
+	padding: 2px;
+}
+
+.wrapper {
+	margin: 20px;
+	padding: 10px;
+}
+.row,
+.row2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row2 {
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+.i {
+	padding: 5px;
+	color: #bda565;
+}
+.flex-box {
+	padding: 50px;
+	margin: 5px;
+	border: 1px solid #bada55;
+	border-radius: 10px;
+}
+
+.rect {
+	width: 10%;
+	margin: 2px;
+	padding: 20px;
+	background-color: #fcedfd;
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		padding: 120px 80px;
+	}
+
+	.flex-box {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 742px) {
+	.container {
+		padding: 100px 60px;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.flex-box {
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 542px) {
+	.container {
+		padding: 60px 30px;
+	}
+	.container h1 {
+	font-size: 25px;
+	}
+}
